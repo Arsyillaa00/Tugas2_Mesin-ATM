@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Tugas2 - Pemrograman Lanjut - JSF</title>
+    </h:head>
+    <h:body>
+        
+        <center><h3>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h3></center>
+        <center><h3>Mesin ATM BANCO</h3></center>
+        <center><h3>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h3></center>
+        
+        <h:form>
+            <br></br><br></br><br></br><br></br>
+            <center><h:outputText value="#{TransaksiNasabah.getResponTarikTunani()}" /></center> 
+       
+            <br></br><br></br><br></br><br></br> 
+            <center><h3>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</h3></center>
+
+            <center><h:commandButton id="tarik-ulang" value="Tarik Ulang" action="tarikTunai"/></center>
+            
+            <br></br> 
+            <center><h:commandButton id="menu" value="Menu Utama" action="index"/></center>
+            
+            <br></br>
+            <center><h:commandButton id="cancel" value="Cancel" action="cancel"/></center>
+            
+        </h:form> 
+    </h:body>
+</html>
